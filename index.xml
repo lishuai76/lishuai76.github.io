@@ -1,0 +1,15 @@
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>李不美的博客</title>
+    <link>https://lishuai76.github.io/</link>
+    <description>Recent content on 李不美的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>李不美 2025</copyright>
+    
+        <atom:link href="https://lishuai76.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss> 
