@@ -1,51 +1,54 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on My New Hugo Site</title><link>http://localhost:1313/posts/</link><description>Recent content in Blog on My New Hugo Site</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Creating a New Theme</title><link>http://localhost:1313/posts/creating-a-new-theme/</link><pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate><guid>http://localhost:1313/posts/creating-a-new-theme/</guid><description>&lt;h2 id="introduction"&gt;
- Introduction
- 
- &lt;a class="anchor" href="#introduction"&gt;#&lt;/a&gt;
- 
-&lt;/h2&gt;
-&lt;p&gt;This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.&lt;/p&gt;
-&lt;p&gt;We&amp;rsquo;ll start with creating a new site with a very basic template. Then we&amp;rsquo;ll add in a few pages and posts. With small variations on that, you will be able to create many different types of web sites.&lt;/p&gt;</description></item><item><title>Migrate to Hugo from Jekyll</title><link>http://localhost:1313/posts/migrate-from-jekyll/</link><pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate><guid>http://localhost:1313/posts/migrate-from-jekyll/</guid><description>&lt;h2 id="move-static-content-to-static"&gt;
- Move static content to &lt;code&gt;static&lt;/code&gt;
- 
- &lt;a class="anchor" href="#move-static-content-to-static"&gt;#&lt;/a&gt;
- 
-&lt;/h2&gt;
-&lt;p&gt;Jekyll has a rule that any directory not starting with &lt;code&gt;_&lt;/code&gt; will be copied as-is to the &lt;code&gt;_site&lt;/code&gt; output. Hugo keeps all static content under &lt;code&gt;static&lt;/code&gt;. You should therefore move it all there.
-With Jekyll, something that looked like&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;▾ &amp;lt;root&amp;gt;/
- ▾ images/
- logo.png
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;should become&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;▾ &amp;lt;root&amp;gt;/
- ▾ static/
- ▾ images/
- logo.png
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as &lt;code&gt;CNAME&lt;/code&gt;) to be moved to &lt;code&gt;static&lt;/code&gt;.&lt;/p&gt;</description></item><item><title>(Hu)go Template Primer</title><link>http://localhost:1313/posts/goisforlovers/</link><pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate><guid>http://localhost:1313/posts/goisforlovers/</guid><description>&lt;p&gt;Hugo uses the excellent &lt;a href="https://golang.org/"&gt;Go&lt;/a&gt; &lt;a href="https://golang.org/pkg/html/template/"&gt;html/template&lt;/a&gt; library for
-its template engine. It is an extremely lightweight engine that provides a very
-small amount of logic. In our experience that it is just the right amount of
-logic to be able to create a good static website. If you have used other
-template systems from different languages or frameworks you will find a lot of
-similarities in Go templates.&lt;/p&gt;
-&lt;p&gt;This document is a brief primer on using Go templates. The &lt;a href="https://golang.org/pkg/html/template/"&gt;Go docs&lt;/a&gt;
-provide more details.&lt;/p&gt;</description></item><item><title>Getting Started with Hugo</title><link>http://localhost:1313/posts/hugoisforlovers/</link><pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate><guid>http://localhost:1313/posts/hugoisforlovers/</guid><description>&lt;h2 id="step-1-install-hugo"&gt;
- Step 1. Install Hugo
- 
- &lt;a class="anchor" href="#step-1-install-hugo"&gt;#&lt;/a&gt;
- 
-&lt;/h2&gt;
-&lt;p&gt;Go to &lt;a href="https://github.com/spf13/hugo/releases"&gt;Hugo releases&lt;/a&gt; and download the
-appropriate version for your OS and architecture.&lt;/p&gt;
-&lt;p&gt;Save it somewhere specific as we will be using it in the next step.&lt;/p&gt;
-&lt;p&gt;More complete instructions are available at &lt;a href="https://gohugo.io/getting-started/installing/"&gt;Install Hugo&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="step-2-build-the-docs"&gt;
- Step 2. Build the Docs
- 
- &lt;a class="anchor" href="#step-2-build-the-docs"&gt;#&lt;/a&gt;
- 
-&lt;/h2&gt;
-&lt;p&gt;Hugo has its own example site which happens to also be the documentation site
-you are reading right now.&lt;/p&gt;
-&lt;p&gt;Follow the following steps:&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Hugo-Tufte Theme Example Site</title>
+    <link>https://hugo-tufte.netlify.app/posts/</link>
+    <description>Recent content in Posts on Hugo-Tufte Theme Example Site</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 17 Apr 2023 16:03:45 +0100</lastBuildDate>
+    <atom:link href="https://hugo-tufte.netlify.app/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tufte CSS</title>
+      <link>https://hugo-tufte.netlify.app/posts/tufte-css/</link>
+      <pubDate>Mon, 17 Apr 2023 16:03:45 +0100</pubDate>
+      <guid>https://hugo-tufte.netlify.app/posts/tufte-css/</guid>
+      <description>&lt;p&gt;Tufte CSS provides tools to style web articles using the ideas demonstrated by Edward Tufte’s books and handouts. Tufte’s style is known for its simplicity, extensive use of sidenotes, tight integration of graphics with text, and carefully chosen typography.&lt;label for=&#34;marginnote-1&#34; class=&#34;margin-toggle marginnote-ind&#34;&gt;⚠&lt;/label&gt;&#xD;&#xA;&lt;input type=&#34;checkbox&#34; id=&#34;marginnote-1&#34; class=&#34;margin-toggle&#34;/&gt;&#xD;&#xA;&lt;span class=&#34;marginnote&#34;&gt;&#xD;&#xA;This demo page is a technical replicate of the original &lt;a href=&#34;https://edwardtufte.github.io/tufte-css/&#34;&gt;Tufte CSS&lt;/a&gt; page on Edward Tufte&amp;rsquo;s GitHub site. Information may not accurately reflect features of the hugo-tufte theme.&#xD;&#xA;&lt;/span&gt;&#xD;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;Tufte CSS was created by &lt;a href=&#34;http://www.daveliepmann.com&#34;&gt;Dave Liepmann&lt;/a&gt; and is now an Edward Tufte project. The original idea was cribbed from &lt;a href=&#34;https://tufte-latex.github.io/tufte-latex/&#34;&gt;Tufte-&lt;code&gt;$\LaTeX{}$&lt;/code&gt;&lt;/a&gt; and &lt;a href=&#34;http://rmarkdown.rstudio.com/tufte_handout_format.html&#34;&gt;R Markdown’s Tufte Handout format&lt;/a&gt;. We give hearty thanks to all the people who have contributed to those projects.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The big old test page</title>
+      <link>https://hugo-tufte.netlify.app/posts/tufte-features/</link>
+      <pubDate>Sun, 16 Apr 2023 16:03:45 +0100</pubDate>
+      <guid>https://hugo-tufte.netlify.app/posts/tufte-features/</guid>
+      <description>&lt;h2 id=&#34;new-features&#34;&gt;&#xD;&#xA;New features&#xD;&#xA;&lt;a href=&#34;#new-features&#34; class=&#34;heading-anchor&#34;&gt;#&lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;h3 id=&#34;emoji&#34;&gt;&#xD;&#xA;Emoji&#xD;&#xA;&lt;a href=&#34;#emoji&#34; class=&#34;heading-anchor&#34;&gt;#&lt;/a&gt;&#xD;&#xA;&lt;/h3&gt;&#xD;&#xA;&lt;p&gt;Powered by &lt;a href=&#34;https://emojipedia.org/noto-emoji/&#34;&gt;Noto Emoji font&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;We really like cats. Yes, they are fluffy and happy. 🐈🐱&lt;/p&gt;&#xA;&lt;p&gt;🪷🫶🤍😊💀🔥&lt;/p&gt;&#xA;&lt;h3 id=&#34;button&#34;&gt;&#xD;&#xA;Button&#xD;&#xA;&lt;a href=&#34;#button&#34; class=&#34;heading-anchor&#34;&gt;#&lt;/a&gt;&#xD;&#xA;&lt;/h3&gt;&#xD;&#xA;&lt;span class=&#34;btn primary&#34;&gt;&#xD;&#xA;&#xD;&#xA;&lt;button onclick=&#34;javascript:(function(){function checkFrames(w) {try {var inputs = w.document.getElementsByTagName(&amp;#39;input&amp;#39;);for (var i=0; i &amp;lt; inputs.length; i&amp;#43;&amp;#43;) {if (inputs[i].type &amp;amp;&amp;amp; inputs[i].type == &amp;#39;checkbox&amp;#39;){inputs[i].checked = true;}}} catch (e){}if(w.frames &amp;amp;&amp;amp; w.frames.length&amp;gt;0){for(var i=0;i&amp;lt;w .frames.length;i&amp;#43;&amp;#43;){var fr=w.frames[i];checkFrames(fr);}}}checkFrames(window);})()&#34; type=&#34;button&#34;&gt;&#xD;&#xA;&lt;span class=&#34;icon&#34;&gt;✅&lt;/span&gt;&#xD;&#xA;Open all notes&#xD;&#xA;&lt;/button&gt;&#xD;&#xA;&lt;/span&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xA;&lt;span class=&#34;btn primary&#34;&gt;&#xD;&#xA;&#xD;&#xA;&lt;button onclick=&#34;javascript:(function(){function checkFrames(w) {try {var inputs = w.document.getElementsByTagName(&amp;#39;input&amp;#39;);for (var i=0; i &amp;lt; inputs.length; i&amp;#43;&amp;#43;) {if (inputs[i].type &amp;amp;&amp;amp; inputs[i].type == &amp;#39;checkbox&amp;#39;){inputs[i].checked = false;}}} catch (e){}if(w.frames &amp;amp;&amp;amp; w.frames.length&amp;gt;0){for(var i=0;i&amp;lt;w .frames.length;i&amp;#43;&amp;#43;){var fr=w.frames[i];checkFrames(fr);}}}checkFrames(window);})()&#34; type=&#34;button&#34;&gt;&#xD;&#xA;&lt;span class=&#34;icon&#34;&gt;❎&lt;/span&gt;&#xD;&#xA;Close all notes&#xD;&#xA;&lt;/button&gt;&#xD;&#xA;&lt;/span&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xA;&lt;span class=&#34;btn primary&#34;&gt;&#xD;&#xA;&#xD;&#xA;&lt;button onclick=&#34;javascript:(function(){function checkFrames(w) {try {var inputs = w.document.getElementsByTagName(&amp;#39;input&amp;#39;);for (var i=0; i &amp;lt; inputs.length; i&amp;#43;&amp;#43;) {if (inputs[i].type &amp;amp;&amp;amp; inputs[i].type == &amp;#39;checkbox&amp;#39;){inputs[i].checked = !inputs[i].checked;}}} catch (e){}if(w.frames &amp;amp;&amp;amp; w.frames.length&amp;gt;0){for(var i=0;i&amp;lt;w .frames.length;i&amp;#43;&amp;#43;){var fr=w.frames[i];checkFrames(fr);}}}checkFrames(window);})()&#34; type=&#34;button&#34;&gt;&#xD;&#xA;&lt;span class=&#34;icon&#34;&gt;🔄&lt;/span&gt;&#xD;&#xA;Toggle all notes&#xD;&#xA;&lt;/button&gt;&#xD;&#xA;&lt;/span&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;button&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;style&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;primary&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;icon&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;🔄&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;href&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;javascript:javascript:(function(){function checkFrames(w) {try {var inputs = w.document.getElementsByTagName(&amp;#39;input&amp;#39;);for (var i=0; i &amp;lt; inputs.length; i++) {if (inputs[i].type &amp;amp;&amp;amp; inputs[i].type == &amp;#39;checkbox&amp;#39;){inputs[i].checked = !inputs[i].checked;}}} catch (e){}if(w.frames &amp;amp;&amp;amp; w.frames.length&amp;gt;0){for(var i=0;i&amp;lt;w .frames.length;i++){var fr=w.frames[i];checkFrames(fr);}}}checkFrames(window);})()&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Toggle all notes&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;button&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;cols-with-lang-option&#34;&gt;&#xD;&#xA;Cols (with &lt;code&gt;lang&lt;/code&gt; option)&#xD;&#xA;&lt;a href=&#34;#cols-with-lang-option&#34; class=&#34;heading-anchor&#34;&gt;#&lt;/a&gt;&#xD;&#xA;&lt;/h3&gt;&#xD;&#xA;&lt;p&gt;Certain things do not work with this shortcode layout, for example, Markdown&amp;rsquo;s default footnote (like &lt;code&gt;[^1]&lt;/code&gt;).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>More math</title>
+      <link>https://hugo-tufte.netlify.app/posts/more-maths/</link>
+      <pubDate>Tue, 20 Jul 2021 13:56:01 -0800</pubDate>
+      <guid>https://hugo-tufte.netlify.app/posts/more-maths/</guid>
+      <description>&lt;p&gt;A compilation of &lt;code&gt;$\LaTeX$&lt;/code&gt; formulas&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hide Date</title>
+      <link>https://hugo-tufte.netlify.app/posts/nodate/</link>
+      <pubDate>Fri, 15 May 2015 00:00:00 +0000</pubDate>
+      <guid>https://hugo-tufte.netlify.app/posts/nodate/</guid>
+      <description>&lt;p&gt;Here is an example post where the date set, but hidden from display.&lt;br&gt;&#xA;Moreover, the reading time is also hidden.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Blockquotes</title>
+      <link>https://hugo-tufte.netlify.app/posts/blockquote/</link>
+      <pubDate>Mon, 19 Jan 2015 23:57:58 -0800</pubDate>
+      <guid>https://hugo-tufte.netlify.app/posts/blockquote/</guid>
+      <description>&lt;p&gt;Below is a blockquote.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,&#xA;consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.&#xA;Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.&lt;/p&gt;&#xA;&lt;p&gt;Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse&#xA;id sem consectetuer libero luctus adipiscing.&lt;/p&gt;&lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>Just another sample post</title>
+      <link>https://hugo-tufte.netlify.app/posts/new/</link>
+      <pubDate>Sat, 29 Mar 2014 00:00:00 +0000</pubDate>
+      <guid>https://hugo-tufte.netlify.app/posts/new/</guid>
+      <description>&lt;h2 id=&#34;first-heading&#34;&gt;&#xD;&#xA;First heading&#xD;&#xA;&lt;a href=&#34;#first-heading&#34; class=&#34;heading-anchor&#34;&gt;#&lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;Tables&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;Are&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: right&#34;&gt;Cool&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;col 1 is&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;left-aligned&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;$1600&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;col 2 is&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;centered&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;$12&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;col 3 is&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;right-aligned&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;$1&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, consequatur aspernatur omnis iste. Voluptates, id inventore ea natus ab sed amet ipsa ratione sunt dignissimos. Soluta illum aliquid repellendus recusandae.&lt;/p&gt;&#xA;&lt;h3 id=&#34;sub-heading&#34;&gt;&#xD;&#xA;Sub heading&#xD;&#xA;&lt;a href=&#34;#sub-heading&#34; class=&#34;heading-anchor&#34;&gt;#&lt;/a&gt;&#xD;&#xA;&lt;/h3&gt;&#xD;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, perferendis saepe voluptatem a nesciunt architecto voluptas deleniti dolor tempora quasi quidem odit rem fugit magnam minima quam dolores vel id?&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
