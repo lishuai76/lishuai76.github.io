@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>5-Journey on Marginalia</title>
+    <link>/5-journey/</link>
+    <description>Recent content in 5-Journey on Marginalia</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <copyright>李不美 2025</copyright>
+    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/5-journey/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>南京（2024.2.18-2024.2.22）</title>
+      <link>/5-journey/nanjing/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>/5-journey/nanjing/</guid>
+      <description>&lt;p&gt;红山森林动物园&lt;/p&gt;&#xA;&lt;p&gt;南京博物院&lt;/p&gt;&#xA;&lt;p&gt;遇难同胞纪念馆&lt;/p&gt;&#xA;&lt;p&gt;民国首都电厂公园&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>/5-journey/jiaxing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/5-journey/jiaxing/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
